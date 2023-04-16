@@ -49,7 +49,7 @@ const Header = () => {
                     <ul className="hidden   md:flex h-full items-center duration-300 py-4 gap-x-4 sm:gap-x-8 text-20 text-gray-100">
                         {tabs.map((tab) => (
                             <li key={tab.href}>
-                                <Link href={tab.href} className="font-semibold text-lg text-gray-800 hover:text-hover">
+                                <Link href={tab.href} className="font-semibold text-md text-gray-800 hover:text-hover">
                                     {tab.title}
 
                                 </Link>
@@ -89,7 +89,7 @@ const Header = () => {
 
                                         {tabs &&
                                             tabs.map((tab) => (
-                                                <Link href={tab.href} key={tab.title} className="block text-gray-800 text-lg font-semibold hover:text-hover py-3 ">
+                                                <Link href={tab.href} key={tab.title} className="block text-gray-800 text-md font-semibold hover:text-hover py-3 ">
                                                     {tab.title}
 
                                                 </Link>
