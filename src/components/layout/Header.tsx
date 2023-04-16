@@ -21,7 +21,7 @@ const Header = () => {
     const [tabs, setTabs] = useState<Tab[]>([])
     const [logo, setLogo] = useState<Logo>({ src: '/', alt: '' })
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const url = 'http://localhost:3000/api/data';
+    const url = '/api/data';
 
     useEffect(() => {
         async function fetchData() {
